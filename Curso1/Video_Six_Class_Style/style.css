@@ -1,0 +1,40 @@
+
+.nav-bar > h1 {
+	text-align: center;
+	
+}
+.producto-imagen > img{
+		display: block;
+		margin: auto;
+}
+.carro{
+	width: 100px;
+	height: 20px;
+	background-color: white;
+	margin-top: -6%;
+	text-align: center;
+	padding-top: 3px;
+	font-weight: bold;
+	
+}
+.color-box{
+	width: 40px;
+	height: 40px;
+	margin-top: 5px;
+	background-color: #FFF;
+}
+button{
+	margin-top: 13px !important;
+  background-color: #B1D0ED; /* Green */
+  border: none;
+  color: black !important;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+	font-weight: bold;
+}
+.disabledButton{
+	background-color: #d8d8d8;
+}

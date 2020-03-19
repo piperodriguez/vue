@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Product App Viejs</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   </head>
+   <body>
+      <div class="nav-bar">
+         <h1>Productos App Viejs</h1>
+      </div>
+      <div class="container" id="app">
+         <div class="row producto">
+            <div class="col-md-6 producto-imagen well">
+               <img v-bind:src="imagen">
+            </div>
+            <div class="col-md-6 producto-informacion well">
+               <h1>{{ producto }}</h1>
+               <p v-if="inventario">En existencia</p>
+               <p v-else>Agotado</p>
+               <ul>
+                  <li v-for="detalle in detalles">
+                     {{detalle}}
+                  </li>
+               </ul>
+               <div class="" v-for="variante in variantes":key="variante.varianteId">
+                  <p @mouseover="updateProducto(variante.varianteImagen)">{{variante.varianteColor}}</p>
+													</div>
+												
+															<button v-on:click="agregarAlCarrito" class="btn btn-primary">Agregar al Carrito</button>
+															<div class="carro col-md-offset-4">
+																	<p>Carro ({{carro}})</p>
+															</div>
+            </div>
+         </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+      <script src="main.js"></script>
+   </body>
+</html>

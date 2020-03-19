@@ -1,0 +1,19 @@
+
+.nav-bar > h1 {
+	text-align: center;
+	
+}
+.producto-imagen > img{
+		display: block;
+		margin: auto;
+}
+.carro{
+	width: 100px;
+	height: 20px;
+	background-color: white;
+	margin-top: -6%;
+	text-align: center;
+	padding-top: 3px;
+	font-weight: bold;
+	
+}

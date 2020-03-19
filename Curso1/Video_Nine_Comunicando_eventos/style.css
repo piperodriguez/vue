@@ -1,0 +1,53 @@
+.nav-bar{
+	width: 100%;
+	height: 69px !important;
+	background-color:darkslategray;
+	margin-bottom: 10px;
+	
+}
+.nav-bar > h1 {
+	text-align: center;
+	color: aliceblue;
+}
+.producto-imagen{
+	margin-top: 5%;
+}
+.producto-imagen > img{
+		display: block;
+		margin: auto;
+		height: 350px;
+}
+.carro{
+	width: 100px;
+	height: 60px;
+	background-color: white;
+	text-align: center;
+	padding-top: 3px;
+	font-weight: bold;
+	border:1.5px solid gray;
+	float: right;
+}
+.carro > p {
+	padding-top: 15px;
+}
+.color-box{
+	width: 40px;
+	height: 40px;
+	margin-top: 5px;
+	background-color: #FFF;
+}
+button{
+	margin-top: 13px !important;
+  background-color: #B1D0ED; /* Green */
+  border: none;
+  color: black !important;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+	font-weight: bold;
+}
+.disabledButton{
+	background-color: #d8d8d8;
+}
